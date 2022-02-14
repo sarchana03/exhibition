@@ -96,7 +96,7 @@ height: 220px;
 							<!-- Select * From Jitsi with Jitsi ID -->
                             <?php
                              include 'advertisement_block.php';
-                             include 'exhibitor_advertisement_block.php';
+                            //  include 'exhibitor_advertisement_block.php';
 
                             $select = $this->db->get_where('jitsi', array('jitsi_id' => $jitsi_id))->result_array();
                             foreach ($select as $key => $row):
